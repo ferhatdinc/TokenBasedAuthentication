@@ -1,0 +1,11 @@
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\bin\Debug\netcoreapp2.0\AuthAPI.deps.json
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\bin\Debug\netcoreapp2.0\AuthAPI.runtimeconfig.json
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\bin\Debug\netcoreapp2.0\AuthAPI.runtimeconfig.dev.json
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\bin\Debug\netcoreapp2.0\AuthAPI.dll
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\bin\Debug\netcoreapp2.0\AuthAPI.pdb
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.csprojAssemblyReference.cache
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.csproj.CoreCompileInputs.cache
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.AssemblyInfoInputs.cache
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.AssemblyInfo.cs
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.dll
+C:\Users\ferha\Documents\GitHub\TokenBasedAuthentication\AuthAPI\AuthAPI\obj\Debug\netcoreapp2.0\AuthAPI.pdb
