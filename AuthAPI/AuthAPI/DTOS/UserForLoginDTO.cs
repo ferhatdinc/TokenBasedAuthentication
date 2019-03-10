@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 
 namespace AuthAPI.DTOS
 {
-    public class UserForRegister
+    public class UserForLoginDTO
     {
-        public int UserName { get; set; }
-        public int Password { get; set; }
+        public string UserName { get; set; }
+        public string Password { get; set; }  
     }
 }

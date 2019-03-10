@@ -10,7 +10,7 @@ namespace SehirRehberi.API.Helpers
     {
         public AutoMapperProfiles()
         {
-            
+            //Mapper
         }
     }
 

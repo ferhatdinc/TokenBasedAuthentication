@@ -17,7 +17,7 @@ namespace SehirRehberi.API.Data
         }
         public async Task<User> Login(string userName, string password)
         {
-            var user = await _context.Users.FirstOrDefaultAsync(u => u.UserName == userName);
+            var user = await _context.User.FirstOrDefaultAsync(u => u.UserName == userName);
             if (user == null)
             {
                 return null;
@@ -53,8 +53,9 @@ namespace SehirRehberi.API.Data
 
             user.UserPasswordHash = passwordHash;
             user.UserPasswordSalt = passwordSalt;
+           
 
-            await _context.Users.AddAsync(user);
+            await _context.User.AddAsync(user);
             await _context.SaveChangesAsync();
             return user;
 
@@ -71,7 +72,7 @@ namespace SehirRehberi.API.Data
 
         public async Task<bool> UserExists(string userName)
         {
-            if (await _context.Users.AnyAsync(u => u.UserName == userName))
+            if (await _context.User.AnyAsync(u => u.UserName == userName))
             {
                 return true;
             }

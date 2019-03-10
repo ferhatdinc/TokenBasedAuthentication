@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AuthAPI.Data;
+using AuthAPI.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AuthAPI.Controllers
@@ -9,11 +11,17 @@ namespace AuthAPI.Controllers
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        DataContext _context;
+        public ValuesController(DataContext context)
+        {
+            _context = context;
+        }
         // GET api/values
         [HttpGet]
-        public IEnumerable<string> Get()
+        public List<User> Get()
         {
-            return new string[] { "value1", "value2" };
+
+            return _context.User.ToList();
         }
 
         // GET api/values/5

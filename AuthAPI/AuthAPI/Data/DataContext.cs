@@ -13,7 +13,7 @@ namespace AuthAPI.Data
         {
 
         } 
-        public DbSet<User> Users { get; set; }
-        public DbSet<Role> Roles { get; set; }
+        public DbSet<User> User { get; set; }
+        public DbSet<Role> UserRoles { get; set; }
     }
 }
